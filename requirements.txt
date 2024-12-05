@@ -4,6 +4,7 @@ gradio
 loguru
 schedule
 markdown2
+langgraph==0.1.5
 langchain==0.2.0
 langchain-openai==0.1.7
 langchain-core==0.2.1
@@ -13,3 +14,4 @@ langchain_chroma
 langchain-text-splitters==0.2.0
 chromadb==0.4.24
 langchainhub==0.1.21
+tavily-python
