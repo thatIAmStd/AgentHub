@@ -8,6 +8,7 @@ from langgraph.graph import StateGraph, START
 from langgraph.graph.message import add_messages
 from typing_extensions import TypedDict
 
+
 from lang_graph.chat_bot.tools.tools import BasicToolNode
 
 # 定义 Tavily 搜索工具，最大搜索结果数设置为 2

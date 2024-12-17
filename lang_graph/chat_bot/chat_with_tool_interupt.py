@@ -7,6 +7,7 @@ from langgraph.checkpoint.memory import MemorySaver
 from langgraph.graph import StateGraph, START
 from langgraph.graph.message import add_messages
 from typing_extensions import TypedDict
+from langchain.agents import AgentType
 
 from lang_graph.chat_bot.tools.tools import BasicToolNode
 
