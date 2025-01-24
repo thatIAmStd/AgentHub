@@ -22,10 +22,8 @@ python_planer = (
 )
 
 chain = RunnableParallel(
-    {
-        "java_code": java_planer,
-        "python_code": python_planer
-    }
+    java_code=java_planer,
+    python_code=python_planer
 )
 result = chain.invoke({"context": "快速排序"})
 
